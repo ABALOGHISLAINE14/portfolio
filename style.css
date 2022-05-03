@@ -19,7 +19,7 @@ nav{
     flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
-    position: fixed;
+    position: sticky;
     padding: 4px;
     padding-top: 0%;
     background-color: white;
@@ -35,7 +35,7 @@ h2{
 }
 .port1 ul li{
     margin-left:20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 a{
     text-decoration: none;
@@ -169,7 +169,6 @@ button{
     }
     nav{
         padding-left: 0;
-        position: static;
         display: block;
         width: 100%;
     }
@@ -206,7 +205,6 @@ button{
     }
     nav{
         padding-left: 0;
-        position: static;
         display: block;
         width: 100%;
     }
